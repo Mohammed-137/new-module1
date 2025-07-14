@@ -1,0 +1,119 @@
+
+.body {
+  font-style:'Times New Roman', Times, serif;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+.nav-link.active :hover{
+  color: rgb(36, 34, 37) !important;
+}
+.About{
+    background-color: rgb(198, 188, 188);
+    width: 100%;
+    padding: 100px 0px;
+}
+.Main{
+    width: 1000px;
+    display: grid;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.About-text{
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.About-text h2{
+    font-size: 35px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.About-text h4{
+    font-size: 25px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+button{
+    border-color: darkgray;
+    color:rgb(23, 23, 23);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 15px;
+    border-radius: 15px;
+}
+.SKILLS{
+    
+    text-align: center;
+    height: 110vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    position: relative;
+    margin: auto;
+}
+.container1{
+    display: flex;
+    gap: 50px;
+    animation: scroll 15s linear infinite;
+}
+.SKILLS h1{
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+
+}
+.card{
+    border-radius: 30px;
+    min-height: 159px;
+    min-width: 250px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+.card:nth-child(odd){
+    background: linear-gradient(-229deg,rgba(0, 0, 0),rgb(188, 183, 183));
+}
+.card:nth-child(even){
+    background: linear-gradient(-229deg,rgb(0, 0, 0),rgb(188, 183, 183));
+}
+@keyframes scroll{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 5));
+    }
+}
+.PROJECT {
+    display: grid;
+    display: flex;
+    min-height: 1400px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
